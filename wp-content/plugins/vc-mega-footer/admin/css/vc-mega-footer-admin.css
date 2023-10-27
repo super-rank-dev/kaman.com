@@ -1,0 +1,404 @@
+#wpcontent, #wpfooter {
+
+}
+#wpcontent .wrap>h1:first-child {
+
+}
+
+
+
+
+
+
+
+/* Toggle switches */
+/* https://proto.io/freebies/onoff/ */
+.vcmgf-onoffswitch {
+    position: relative;
+    width: 55px;
+
+    position: relative;
+    width: 55px;
+    float: left;
+    margin-top: -5px;
+    margin-right: 20px;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+
+input[type=checkbox].vcmgf-onoffswitch-checkbox {
+    display: none;
+}
+
+.vcmgf-onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 2px solid #EEEEEE; border-radius: 20px;
+    background-color: #A6D5FC;
+    transition: background-color 0.3s ease-in;
+}
+.vcmgf-onoffswitch-label:before {
+    content: "";
+    display: block; width: 20px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 33px;
+    border: 2px solid #FFFFFF; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.vcmgf-onoffswitch-checkbox:checked + .vcmgf-onoffswitch-label {
+    background-color: #00aef0;
+}
+.vcmgf-onoffswitch-checkbox:checked + .vcmgf-onoffswitch-label, .vcmgf-onoffswitch-checkbox:checked + .vcmgf-onoffswitch-label:before {
+   border-color: #00aef0;
+}
+.vcmgf-onoffswitch-checkbox:checked + .vcmgf-onoffswitch-label:before {
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* vc mega footer fields */
+.vc-mega-footer-field {
+      display:none;
+}
+.vc-mega-footer-field h3 {
+      font-size:13px;
+}
+.vc-mega-footer-field p {
+      margin:10px 0px;
+}
+
+
+
+/* number field on settings page */
+.vcmegafooter_page_vc-mega-footer-settings .number {
+      max-width:70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* multiselect */
+
+.vc-mega-footer-multiselect {
+
+}
+.vcmgf-ms-options-wrap,
+.vcmgf-ms-options-wrap * {
+    box-sizing: border-box;
+}
+
+.vcmgf-ms-options-wrap > button:focus,
+.vcmgf-ms-options-wrap > button {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    padding: 5px 20px 5px 5px;
+    margin-top: 1px;
+    font-size: 13px;
+    color: #aaa;
+    outline: none;
+    white-space: nowrap;
+}
+
+.vcmgf-ms-options-wrap > button:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 0;
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-top-color: #999;
+    margin-top: -3px;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > .vcmgf-ms-search input {
+    width: 100%;
+    padding: 4px 5px;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options .vcmgf-ms-selectall {
+    display: inline-block;
+    font-size: .9em;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+.vcmgf-ms-options-wrap > .vcmgf-ms-options .vcmgf-ms-selectall:hover {
+    text-decoration: underline;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > .vcmgf-ms-selectall.global {
+    margin: 4px 5px;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul,
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul > li.optgroup ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul > li.optgroup {
+    padding: 5px;
+}
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul > li.optgroup + li.optgroup {
+    border-top: 1px solid #aaa;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul > li.optgroup .label {
+    display: block;
+    padding: 5px 0 0 0;
+    font-weight: bold;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 4px;
+    margin: 1px 0;
+    border: 1px dotted transparent;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul label.focused,
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul label:hover {
+    background-color: #efefef;
+    border-color: #999;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul li.selected label {
+    background-color: #efefef;
+    border-color: transparent;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options > ul input[type="checkbox"] {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: 4px;
+    top: 7px;
+}
+
+.vcmgf-ms-options-wrap > .vcmgf-ms-options.hide-checkbox > ul input[type="checkbox"] {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* ensure the select box popup jquery plugin we are using
+ displays over the top of the wordpress postbox-container */
+.vcmgf-ms-options {
+      z-index:999 !important;
+}
+#vc_mega_footer_vcmegafooter_additional_info {
+      overflow:visible !important;
+      /*background-color:#000;
+      color:#FFF;*/
+}
+
+#vc_mega_footer_vcmegafooter_additional_info h1,
+#vc_mega_footer_vcmegafooter_additional_info h2,
+#vc_mega_footer_vcmegafooter_additional_info h3,
+#vc_mega_footer_vcmegafooter_additional_info h4,
+#vc_mega_footer_vcmegafooter_additional_info h5,
+#vc_mega_footer_vcmegafooter_additional_info p {
+      /*color:#FFF;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* boilerplate css */
+
+.vcmegafooters_page_vc-mega-footer-help {
+    list-style: disc;
+    margin-left: 1.5em
+}
+.show {
+    display: block
+}
+.hide {
+    display: none
+}
+.wrap-radios {
+    max-height: 175px;
+    overflow-y: scroll
+}
+.post-type-vcmegafooter .repeater,
+.vcmegafooter_page_vc-mega-footer-settings .repeater {
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    width: 100%
+}
+.post-type-vcmegafooter .repeater *,
+.vcmegafooter_page_vc-mega-footer-settings .repeater * {
+    box-sizing: border-box
+}
+.post-type-vcmegafooter .repeater .handle,
+.post-type-vcmegafooter .repeater .repeater-content,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .handle,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .repeater-content {
+    border: 1px solid #ddd;
+    padding: 0.75em
+}
+.post-type-vcmegafooter .repeater .repeater-content,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .repeater-content {
+    border-top: none
+}
+.post-type-vcmegafooter .repeater .handle,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .handle {
+    background-color: #fafafa;
+    cursor: move;
+    overflow: auto;
+    position: relative;
+    width: 100%
+}
+.post-type-vcmegafooter .repeater .btn-edit,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .btn-edit {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    height: 100%;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px
+}
+.post-type-vcmegafooter .repeater .toggle-arrow,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .toggle-arrow {
+    color: #a0a5aa;
+    display: inline-block;
+    font-family: dashicons;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    height: 20px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: inherit;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    width: 20px
+}
+.post-type-vcmegafooter .repeater .toggle-arrow:before,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .toggle-arrow:before {
+    content: "\f142"
+}
+.post-type-vcmegafooter .repeater .toggle-arrow.closed:before,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .toggle-arrow.closed:before {
+    content: "\f140"
+}
+.post-type-vcmegafooter .repeater .link-remove,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .link-remove {
+    color: #a00;
+    text-decoration: none
+}
+.post-type-vcmegafooter .repeater .link-remove:hover,
+.vcmegafooter_page_vc-mega-footer-settings .repeater .link-remove:hover {
+    color: red;
+    text-decoration: underline
+}
+.post-type-vcmegafooter .repeater #upload-file,
+.vcmegafooter_page_vc-mega-footer-settings .repeater #upload-file {
+    display: block;
+    text-align: right
+}
+.post-type-vcmegafooter .repeater-more,
+.vcmegafooter_page_vc-mega-footer-settings .repeater-more {
+    text-align: right
+}
+@media screen and (max-width: 782px) {
+    input[type=file],
+    input[type=url] {
+        -webkit-appearance: none;
+        padding: 6px 10px
+    }
+}
+@media screen and (min-width: 783px) {
+    #normal-sortables .wrap-field,
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field {
+        display: inline-block;
+        vertical-align: top
+    }
+    #normal-sortables .wrap-field:not(:last-child),
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field:not(:last-child) {
+        margin-right: 1%
+    }
+    #normal-sortables .wrap-field input,
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field input {
+        width: 100%
+    }
+    #normal-sortables .wrap-field:first-child:nth-last-child(2),
+    #normal-sortables .wrap-field:first-child:nth-last-child(2) ~ p,
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field:first-child:nth-last-child(2),
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field:first-child:nth-last-child(2) ~ p {
+        width: 48%
+    }
+    #normal-sortables .wrap-field:first-child:nth-last-child(3),
+    #normal-sortables .wrap-field:first-child:nth-last-child(3) ~ p,
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field:first-child:nth-last-child(3),
+    .vcmegafooter_page_vc-mega-footer-settings .wrap-field:first-child:nth-last-child(3) ~ p {
+        width: 32%
+    }
+}
+/*# sourceMappingURL=vc-mega-footer-admin.css.map */

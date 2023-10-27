@@ -1,0 +1,16 @@
+/* VC element icon */
+.vc_element-icon.vc_mgt_timeline {
+    background-image: url("./images/vc_mgt_default_icon.png");
+    background-position: center center;
+}
+/* Custom VC param types styles */
+.wpb_el_type_mgt_separator .wpb_element_label {
+    border-bottom: 1px solid #2b4b80;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #2B4B80;
+}
+.hide_in_vc_editor {
+    display: none;
+}

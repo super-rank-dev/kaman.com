@@ -1,0 +1,153 @@
+<h3>Changelog &mdash;</h3>
+
+<strong>Version 3.6.3.1 - 28 October, 2020</strong>
+<pre><code>- Fix: JS error on tab click due to the show/hide accordion feature</code></pre>
+
+<strong>Version 3.6.3 - 9 October, 2020</strong>
+<pre><code>- New Feature: An option to display random tab as active on page refresh
+- New Feature: An option to enable closing of open accordions on click
+- Improved: Compatibility with the latest version of WPBakery Page Builder 6.4.1
+- Improved: Compatibility with WordPress 5.5</code></pre>
+
+<strong>Version 3.6.2 - 10 June, 2020</strong>
+<pre><code>- New Feature: An option to add + and - icon indicators for the mobile accordions
+- Improved: Image icons will now display alt attributes
+- Improved: Compatibility with the latest WPBakery Page Builder 6.2
+- Fix: Individual tab custom colors don't inherited to mobile accordions</code</pre>
+
+<strong>Version 3.6.1 &mdash; 3 February, 2020</strong>
+
+<pre><code>-Fix: Active accordion image icon not changing on page load</code></pre>
+
+<strong>Version 3.6.0 &mdash; 3 February, 2020</strong>
+
+<pre><code>-New Feature: Sticky Tabs navigation
+- New Feature: Option to disable responsive tabs on mobile and inherit desktop tabs
+- New Feature: Convert tabs navigation to carousel if it doesn't fit in the container
+- New Feature: Option to close all accordions on load</code></pre>
+
+<strong>Version 3.5.0 &mdash; 6 January, 2020</strong>
+<pre><code>- New: New Tab Style - Border Scale
+- New: Implemented auto-update functionality for future updates
+- New: Option to add custom link to open on tab click
+- New: Option to set double tap to open tab custom link on touch screen devices
+- Fixed: Tabs on hover doesn't work for some older jQuery versions
+- Fixed: Compatibility with older version of WPBakery Page Builder for icon picker
+- Fixed: Compatibility with the latest WPBakery Page Builder 6.1</code></pre>
+
+<strong>Version 3.4.1 &mdash; 6 June, 2019</strong>
+<pre><code>- Fixed: Compatibility with the latest WPBakery Page Builder 6.x</code></pre>
+
+<strong>Version 3.4.0 &mdash; 22 April, 2019</strong>
+<pre><code>- New: Option to enable tabs to switch on hover.
+- New: Options to override custom colors for each tab.
+- New: Option to set sub-titles under tab title.
+- New: Option to set tabs to show/hide on click.
+- New: Option to set tabs to be equal width.
+- New: Added support to use WPBakery Icon Picker for FontAwesome 5.
+- Improved: Make sure accordion tabs works perfect if there are multiple tabs on same page.
+- Improved: Compatibility with WordPress 5.x and WPBakery Page Builder 5.7.
+</code></pre>
+
+<strong>Version 3.3.2 &#8211; 3 March, 2018</strong>
+<pre><code>- New: Option to auto switch tabs with interval
+- Improved: Tabs to Dropdown now respect the active tab when resized on mobile view.
+- Improved: Compatibility with WordPress 4.9.4 and WPBakery Page Builder 5.4.5
+- Improved: Plugin name changed to reflect the updated name for WPBakery Page Builder
+- Fixed: The custom image icon not available on mobile accordion tabs
+- Fixed: Styling issues with the Icon Box List Style on hover, when title goes on next line.
+- Fixed: Styling issue for New Icon Box tab style on mobile.
+- Fixed: Tabs to dropdown on mobile isn't working due to wrong attribute
+- Fixed: Tab js loading on admin interface, and causing conflicts for some Theme Options.</code></pre>
+
+
+<strong>Version 3.3.1 &#8211; 23 October, 2017</strong>
+<pre><code>- New: Added option to set any tab active by default or hide all tabs on load.
+- Improved: Add-on category display in Visual Composer element categories.
+- Improved: Compatibility with WordPress 4.8.2 and Visual Composer 5.4.2
+- Fixed: Undefined icon PHP warning if no icon is selected.
+- Fixed: Tabs to dropdown not working on select change on mobile.
+- Fixed: Tab deep linking sets active tab for all tabs in a page for the index of the linked tab.</code></pre>
+
+<strong>Version 3.3.0 &#8211; 22 July, 2017</strong>
+<pre><code>- New: Added a new tab style - Icon box list style - https://cl.ly/3h230l3w1y42
+- New: Added options to customize tab hover title and background color.
+- New: Added options to choose custom image icons to display on hover.
+- New: VC core element will now work flawlessly within elegant tabs.
+- Improved: Removed empty space when no icon is selected.
+- Improved: Removed vc js dependency which was preventing tabs to work correctly.
+- Improved: Removed top / bottom padding on vertical tabs content area.
+- Improved: Compatibility with Visual Composer 5.2 added.
+- Fixed: deep linking on same page scrolling issue.
+- Fixed: Stop videos on tab switch.
+- Fixed: Single tab editing being broken with Visual Composer 5.2</code></pre>
+
+<strong>Version 3.2.0 &#8211; 28 March, 2017</strong>
+<pre><code>- New: Tabs to Accordion on mobile option added.
+- New: 51 New FontAwesome icons from latest library.
+- Improved: Tabs styling.</code></pre>
+
+<strong>Version 3.1.0 &#8211; 18 January, 2017</strong>
+<pre><code>- New: Justified Tabs Option added.
+- Fixed: Mobile tabs dropdown generating even the setting is disabled.
+- Fixed: Tabs styling with image icon.
+- Fixed: Vertical Tabs styling.</code></pre>
+
+<strong>Version 3.0.0 &#8211; 19 December, 2016 </strong>
+<pre><code>- New: Vertical Tabs option to convert tabs to vertical type.
+- New: Tab ID option added for adding custom tab ids.
+- New: Option added to enable tabs to dropdown conversion on mobile devices.
+- Improved: Compatibility with WordPress 4.7
+- Improved: Compatibility with Visual Composer 5.0.1
+- Improved: Tabs styling.
+- Fixed: Backend tab view not working properly for adding new tabs.
+- Fixed: Blank Image placeholder being added if no icon is selected.
+- Fixed: Tab content area top margin adding blank space after tab navigation.</code></pre>
+
+<strong>Version 2.4.0 &#8211; 10 Oct. 2016 </strong>
+<pre><code>- New: Custom Image Icon feature added.
+- Improved: FontAwesome Icon Library updated with latest icons.</code></pre>
+
+<strong>Version 2.3.3 &#8211; 25 June, 2016 </strong>
+<pre><code>- Fixed: Tabs js affecting other anchor tags and prevent default action on links issue</code></pre>
+
+<strong>Version 2.3.2 &#8211; 18 April, 2016 </strong>
+<pre><code>- Fixed: Compatibility with Latest Visual Composer</code></pre>
+
+<strong>Version 2.3.1 &#8211; 16 April, 2016 </strong>
+<pre><code>- Fixed: Compatibility with WordPress 4.5</code></pre>
+
+<strong>Version 2.3.0 &#8211; 13 April, 2016 </strong>
+<pre><code>- Fixed: deep-linking tabs from same page issue.
+- Fixed: deep-linking tabs from other pages issue.</code></pre>
+
+<strong>Version 2.2.0 &#8211; 26 Sept. 2015 </strong>
+<pre><code>- Fixed: Tab content was not editable issue fixed.</code></pre>
+
+<strong>Version 2.1.0 &#8211; 16 Sept. 2015 </strong>
+<pre><code>- New: Deep-linking support. You can now link the tabs from anywhere.
+- New: Alignment option added. Align your tabs left, right or center.
+- Fixed: Extra class name now applying to tab contaner issue.</code></pre>
+
+<strong>Version 2.0.0 &#8211; 09 Sept. 2015 </strong>
+<pre><code>Major Improvement: You can now use Visual Composer elements inside the tabs As like the VC default tabs. Drag and drop any VC element inside the elegant tabs to meet your expectations.
+- Improved: Compatibility with WordPress 4.3
+- Improved: Compatibility with Visual Composer 4.7</code></pre>
+
+<strong>Version 1.1.1 &#8211; December 3, 2014</strong>
+<pre><code>Fixed: Fixed the CSS that was causing the text in the tab content area look too large.</code></pre>
+
+<strong>Version 1.1.0 &#8211; December 2, 2014</strong>
+<pre><code>New - Added animate.css animation support for tab content.
+Fixed: All tabs displaying issue when there's a JavaScript issue in the browser.</code></pre>
+
+<strong>Version 1.0.2 &#8211; November 27, 2014</strong>
+<pre><code>Fixed: Tab Content Area Text cutting off from right is now fixed.
+Fixed: Improved CSS for Tabs Title. Text was cutting when long title is given.</code></pre>
+
+<strong>Version 1.0.1 &#8211; November 26, 2014</strong>
+<pre><code>Fixed: Responsive CSS
+Fixed: Few minor bug fixes</code></pre>
+
+<strong>Version 1.0.0 &#8211; November 25, 2014</strong>
+<pre><code>Initial Release</code></pre>

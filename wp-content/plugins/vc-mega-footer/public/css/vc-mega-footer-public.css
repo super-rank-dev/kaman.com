@@ -1,0 +1,40 @@
+/**
+ * css for public-facing
+ */
+
+
+/* vcmega main container */
+.vcmega-main-wrap {
+
+}
+
+/* fix the footer full width */
+.vcmega-main-wrap .vcmega-vcrow {
+
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+}
+
+.vcmega-main-wrap .vcmega-container {
+      /* this is defined in php so we can use a user supplied outside container width */
+}
+
+/* fix for bootstrap container, usually placed outsode body */
+.vcmega-main-wrap .container {
+    display:block; width:100%; padding:0;
+}
+
+/* we are hiding all dom returned via the_content, lets specify which elements are valid footer items, and fix some weird things that can happen */
+.vcmega-main-wrap .vc_row,
+.vcmega-main-wrap .vc_row-full-width,
+.vcmega-main-wrap .mk-page-section-wrapper,  /* fix for Jupiter theme, it calls vc_row mk-page-section-wrapper, just because it wants to */
+.vcmega-main-wrap section {
+    display:block !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}
